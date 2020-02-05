@@ -3,19 +3,17 @@ import PropTypes from 'prop-types';
 
 
 const ArticleListItem = props => {
-  const article = props.article;
   return (
     <article>
-      <header>
-        <h1>{article.title}</h1>
-      </header>
-      <body>
-        <p>{article.shortText}</p>
-        <time datetime={article.pubYear}> {article.pubDate}</time>
-        <button onClick={() => alert(`${article.slug}`)}>
-          show article slug
-        </button>
-      </body>
+
+      <h1>{props.article.title}</h1>
+    
+      <p>{props.article.shortText}</p>
+
+      <time datetime={props.article.pubYear}> {props.article.pubDate}</time>
+
+      <button onClick={() => alert(props.article.slug)}> show article slug </button>
+
     </article>
   );
 };

@@ -6,7 +6,7 @@ const ArticleList = props => {
   return (
     <ul>
       {props.articles.map(article => (
-        <li key={article.slug}>ArticleListItem component goes here</li>
+        <li key={article.slug}><ArticleListItem article={article} /></li>
       ))}
     </ul>
   );
