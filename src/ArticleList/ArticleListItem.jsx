@@ -1,19 +1,23 @@
 import React from "react";
 import PropTypes from 'prop-types';
-
+import SlugButton from './SlugButton.jsx';
+import styles from './ArticleListItem.module.css';
 
 const ArticleListItem = props => {
   return (
-    <article>
+    <article className={styles.article}>
 
-      <h1>{props.article.title}</h1>
-    
-      <p>{props.article.shortText}</p>
+    	<fieldset className={styles.field}>
 
-      <time datetime={props.article.pubYear}> {props.article.pubDate}</time>
+    		<h1 className={styles.h1}>{props.article.title}</h1> 
+	    
+	      <p className={styles.p}>{props.article.shortText}</p>
 
-      <button onClick={() => alert(props.article.slug)}> show article slug </button>
+	      <time className={styles.time} datetime={props.article.pubYear}> {props.article.pubDate}</time>
 
+	      <SlugButton article={props.article}></SlugButton>
+	      
+  		</fieldset>
     </article>
   );
 };
@@ -22,3 +26,6 @@ ArticleListItem.propTypes = {
   article: PropTypes.object.isRequired
 };
 export default ArticleListItem;
+
+
+
