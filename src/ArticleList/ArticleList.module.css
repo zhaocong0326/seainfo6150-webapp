@@ -1,7 +1,8 @@
 .container {
+    list-style: none;
     background: rgb(160, 159, 159);
     border: dashed rgb(76, 75, 75);
-    margin: 40px;  
+    margin: 40px;
     padding: 30px;
 }
 

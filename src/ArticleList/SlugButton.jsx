@@ -5,15 +5,15 @@ import styles from './SlugButton.module.css';
 
 const SlugButton = props => {
 
-  return (
-
-    <button className={styles.button} onClick={() => alert(props.article.slug)}>
-      {props.article.author}       
-    </button>
-    
-  );
-
-};
+   return (
+      <button
+        className={styles.slugButton}
+        onClick={() => alert(props.slug)}
+      >
+        {props.buttonText}
+      </button>
+    );
+  };
 
 SlugButton.propTypes = {
   article: PropTypes.object.isRequired

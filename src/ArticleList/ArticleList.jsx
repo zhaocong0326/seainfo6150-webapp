@@ -7,7 +7,9 @@ const ArticleList = props => {
   return (
   	<section className = {styles.container}>
       {props.articles.map(article => (
-        <li key={article.slug}><ArticleListItem article={article} /></li>
+        <li key={article.slug}>
+            <ArticleListItem article={article} />
+        </li>
       ))}
     </section>
   );
