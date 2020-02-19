@@ -5,4 +5,7 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
+    border-radius: 10px;
+    height: 2.5rem;
+    width: 12rem;
 }

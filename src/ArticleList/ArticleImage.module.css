@@ -1,0 +1,11 @@
+img {
+    float: left;
+    border-radius: 50%;
+    border: 8px solid #c00;
+    width: 7.5rem;
+    height: 4rem;
+    background-position: left top;
+    margin-top: 12px;
+    margin-left: 12px;
+    box-shadow: 0 10px 8px 0 #867d7d;
+}

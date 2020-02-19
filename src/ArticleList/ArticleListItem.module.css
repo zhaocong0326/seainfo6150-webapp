@@ -1,10 +1,20 @@
 .container {
     background: #eee;
     border: 1px solid #c00;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 10px;
     position: relative;
+    border-radius: 10px;
+    width: 42rem;
+    height: 12rem;
+    background-image: linear-gradient( to right, #c9676e, white 20% );
+    box-shadow: 0 10px 8px 0 #5a5858;
 }
+
+.article {
+    margin-left: 11rem;
+}
+
 
 .title {
     color: #c00;
@@ -16,3 +26,4 @@
     font-weight: bold;
     font-size: smaller;
 }
+
