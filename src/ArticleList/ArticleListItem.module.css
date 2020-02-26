@@ -1,29 +1,38 @@
 .container {
     background: #eee;
     border: 1px solid #c00;
-    margin-bottom: 30px;
     padding: 10px;
     position: relative;
     border-radius: 10px;
-    width: 42rem;
-    height: 12rem;
     background-image: linear-gradient( to right, #c9676e, white 20% );
     box-shadow: 0 10px 8px 0 #5a5858;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    display: flex;
+    min-height: 94%;
+    font-size: 10px; 
 }
 
 .article {
-    margin-left: 11rem;
+    vertical-align: middle;
+    padding-left: 10px;
+	padding-right: 10px;
 }
 
 
 .title {
     color: #c00;
-    font-size: 2rem;
-    margin: .5rem 0;
+    font-size: 20px;
+}
+
+.p{
+    font-size: 15px; 
 }
 
 .pubDate {
     font-weight: bold;
     font-size: smaller;
+    font-size: 11px;
 }
+
 

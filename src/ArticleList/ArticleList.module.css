@@ -5,5 +5,9 @@
     background: #999;
     border: 1px dashed #666;
     border-radius: 15px;
-    width: 44rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+	grid-row-gap:10px;
+    margin:20px;
 }
