@@ -4,7 +4,7 @@ import styles from "./ArticleImage.module.css";
 
 const ArticleImage = props => {
     return (
-        <img src = {props.url} alt = {props.title}></img>
+        <img className={styles.image}src = {props.url} alt = {props.title}></img>
     );
 };
 
