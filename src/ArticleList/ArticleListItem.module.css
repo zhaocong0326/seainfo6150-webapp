@@ -12,21 +12,20 @@
 
 .article {
     vertical-align: middle;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
+    font-size: 12px;
 }
 
 
 .title {
     color: #c00;
-    font-size: 20px;
-    margin: .5rem 0;
+    font-size: 25px;
+    margin-bottom: 1rem;
 }
 
 .pubDate {
     font-weight: bold;
-    font-size: smaller;
+    font-size: 10px;
 }
 
 

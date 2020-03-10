@@ -2,9 +2,9 @@ img {
     float: left;
     border-radius: 50%;
     border: 8px solid #c00;
-    width: 6.2rem;
-    height: 3rem;
+    width: 7rem;
+    height: 4rem;
     background-position: left top;
-    margin : 9px;
     box-shadow: 0 10px 8px 0 #867d7d;
+    margin-bottom: 1.5rem;
 }
