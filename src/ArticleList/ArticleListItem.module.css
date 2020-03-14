@@ -28,7 +28,7 @@
     font-size: 10px;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 350px) {
     .article {
         margin-bottom: 2rem;
         font-size: 24px;
@@ -46,3 +46,38 @@
     }
 }
 
+@media (min-width: 500px) {
+    .article {
+        margin-bottom: 1.8rem;
+        font-size: 20px;
+    }
+    
+    
+    .title {
+        color: #c00;
+        font-size: 40px;
+        margin-bottom: 1.8rem;
+    }
+    
+    .pubDate {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 800px) {
+    .article {
+        margin-bottom: 1.5rem;
+        font-size: 18px;
+    }
+    
+    
+    .title {
+        color: #c00;
+        font-size: 35px;
+        margin-bottom: 1.5rem;
+    }
+    
+    .pubDate {
+        font-size: 15px;
+    }
+}
